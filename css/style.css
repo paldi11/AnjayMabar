@@ -1,0 +1,446 @@
+@font-face {
+
+    font-family: myFont;
+
+    src: url('../font/Raleway/Raleway-Regular.ttf');
+
+}
+
+
+
+*{
+
+    box-sizing: border-box;
+
+    font-family: myFont;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.activate a{
+
+    color:blue !important;
+
+}
+
+.wrapper{
+
+    float:left;
+
+    width:100%;
+
+
+
+
+
+}
+
+/*Syntax CSS Untuk Top Header Logo*/
+
+.top-header{
+
+    float:left;
+
+    width:100%;
+
+    padding: 15px 0px;
+
+    position: relative;
+
+    background: #595959;
+
+    color:#ffffff;
+
+}
+
+.top-header h4{
+
+    font-weight:normal;
+
+    text-align: center;
+
+}
+
+.content-wrapper{
+
+    max-width:1100px;
+
+    margin:0 auto;
+
+}
+
+/*End Syntax CSS Untuk Top Header Logo*/
+
+
+
+.header{
+
+    float:left;
+
+    width:100%;
+
+    padding:10px 100px;
+
+
+
+}
+
+
+
+/*Syntax CSS Untuk Header Logo*/
+
+.logo-header{
+
+    float:left;
+
+    width:30%;
+
+}
+
+
+
+
+
+/*Syntax CSS Header Banner*/
+
+.banner-header img {
+    width:30%;
+    position:center;
+    
+}
+
+/*Syntax CSS Slideshow*/
+
+
+	* {box-sizing: border-box;}
+	body {font-family: Verdana, sans-serif;}
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	  top : 75px;
+	}
+
+    
+
+
+	/* Caption text */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: black;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 50px;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+
+
+
+/*Syntax CSS Content-Body*/
+
+.content-body{
+
+    float:left;
+
+    width:60%;
+
+    padding:10px 100px;
+
+
+
+}
+
+.content-body h2{
+
+    font-family: myFont;
+
+    margin-bottom:20px;
+
+    font-size: 35px!important;
+
+    font-weight: 400;
+
+    letter-spacing: 10px;
+
+    line-height: 1.5;
+
+}
+
+.content-body p{
+
+    line-height: 2em;
+
+}
+
+
+
+/*Syntax CSS Sidebar*/
+
+.sidebar{
+
+    float:left;
+
+    width:40%;
+
+    padding:10px 100px;
+
+}
+
+.sidebar h2{
+
+    font-family: myFont;
+
+    margin-bottom:20px;
+
+    font-size: 20px!important;
+
+    font-weight: 400;
+
+    line-height: 1.5;
+
+}
+
+.border-btm-sidebar{
+
+    border-bottom: 1px solid #757575;
+
+    margin-top:-10px;
+
+    content: '';
+
+    display: block;
+
+    height: 1px;
+
+    width: 50px;
+
+}
+
+
+
+/*Syntax CSS Untuk Sidebar NAppreciation*/
+
+.appreciation-sidebar{
+
+    padding:10px 0px;
+
+}
+
+.appreciation-sidebar li{
+
+    padding-top:10px;
+
+    list-style: none;
+
+    font-size:14px;
+
+}
+
+
+
+/*Syntax CSS Untuk Footer*/
+
+.content-footer{
+
+    float:left;
+
+    margin: 0 auto;
+
+    width:100%;
+
+    padding: 100px 100px;
+
+}
+
+.col-content-footer{
+
+    padding:10px 0px;
+
+    float:left;
+
+    width:25%;
+
+}
+
+.col-content-footer h2{
+
+    font-family: myFont;
+
+    font-size: 20px!important;
+
+    line-height: 1.5;
+
+}
+
+.col-content-footer p{
+
+    margin-top: 20px;
+
+    line-height: 2em;
+
+}
+
+.border-btm-footer{
+
+    border-bottom: 1px solid #757575;
+
+    margin-top:10px;
+
+    content: '';
+
+    display: block;
+
+    height: 1px;
+
+    width: 50px;
+
+}
+
+.footer{
+
+    float:left;
+
+    width:100%;
+
+    padding: 15px 0px;
+
+    position: relative;
+
+    background: #595959;
+
+    color:#ffffff;
+
+}
+
+.footer h5{
+
+    font-weight:normal;
+
+    text-align: center;
+
+}
+
+
+
+.nav-footer{
+
+    padding:10px 0px;
+
+}
+
+.nav-footer li{
+
+    padding-top:10px;
+
+    list-style: none;
+
+    font-size:14px;
+
+}
+
+
+
+/*CSS Untuk Nav Contact*/
+
+.nav-contact{
+
+    padding:10px 0px;
+
+}
+
+.nav-contact li{
+
+    padding-top:10px;
+
+    list-style: none;
+
+    font-size:14px;
+
+}
+
+
+
+/*Portofolio CSS*/
+
+.portofolio-item{
+
+    margin-top:20px;
+
+     padding:10px 10px;
+
+     width:50%;
+
+     float:left;
+
+ }
+
+
+
+.portofolio-item img{
+
+    width:100%;
+
+    height:150px;
+
+}
+
+.portofolio-item h3{
+
+    font-weight:normal;
+
+    text-align: left;
+
+}
+
+
+
+
+
